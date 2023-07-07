@@ -3,4 +3,38 @@
 }
 body {
     background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    display: flex;
+}
+.header-links {
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: 1F2937;
+}
+.container {
+    display: flex;
+    background: #F9FAF8;
+}
+.modal {
+    display: flex;
+    background: #E5E7EB;
+}
+.footer {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
 }
